@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnDropdownUI</name>
+   <tag></tag>
+   <elementGuidId>07fd649f-9a70-4ff5-af71-2f2845881929</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.basic</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@data-element=&quot;dropdown&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

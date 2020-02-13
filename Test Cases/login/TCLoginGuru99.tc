@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCLoginGuru99</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb5385be-0f01-488b-83b6-7f3ed20a71fb</testCaseGuid>
+   <variable>
+      <defaultValue>'mngr244165'</defaultValue>
+      <description></description>
+      <id>3fd15dcf-312f-4896-82fc-327a08ac8e97</id>
+      <masked>false</masked>
+      <name>usernameValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'EsesAqY'</defaultValue>
+      <description></description>
+      <id>12422849-afe1-4906-868e-3b045fea45ad</id>
+      <masked>false</masked>
+      <name>passValue</name>
+   </variable>
+</TestCaseEntity>

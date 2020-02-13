@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>demoDropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbd9dc2c-c4af-4ad4-b9de-45b8d45bc2f9</testCaseGuid>
+   <variable>
+      <defaultValue>'//a[.=\'HTML\']'</defaultValue>
+      <description></description>
+      <id>5f017a16-519d-4151-8f6b-9e223f889a56</id>
+      <masked>false</masked>
+      <name>xpath_value</name>
+   </variable>
+</TestCaseEntity>

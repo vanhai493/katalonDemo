@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>demoCheckbox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b930c901-26e8-4c6e-85a8-13c3899f56b8</testCaseGuid>
+   <variable>
+      <defaultValue>'//a[.=\'HTML\']'</defaultValue>
+      <description></description>
+      <id>d054c5c6-5ec7-4889-bf17-2921655ecdf3</id>
+      <masked>false</masked>
+      <name>xpath_value</name>
+   </variable>
+</TestCaseEntity>

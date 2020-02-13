@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCLoginKatalonDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>151124d8-d7ce-470f-a54c-ecda80e5bed2</testCaseGuid>
+   <variable>
+      <defaultValue>'mngr244165'</defaultValue>
+      <description></description>
+      <id>6f7eff53-6fe1-42e6-9b9d-89f761f8408f</id>
+      <masked>false</masked>
+      <name>usernameValue</name>
+   </variable>
+   <variable>
+      <defaultValue>'EsesAqY'</defaultValue>
+      <description></description>
+      <id>fe9ca7c4-3d3f-450b-8e1c-9b1b1d85b335</id>
+      <masked>false</masked>
+      <name>passValue</name>
+   </variable>
+</TestCaseEntity>
