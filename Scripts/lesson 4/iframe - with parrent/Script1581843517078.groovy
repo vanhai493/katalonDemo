@@ -18,8 +18,17 @@ WebUI.openBrowser('http://the-internet.herokuapp.com/iframe')
 'Maximize the window\r\n'
 WebUI.maximizeWindow()
 
-//WebUI.rightClick(findTestObject('Object Repository/Frame/text'))
-WebUI.rightClickOffset(findTestObject('Object Repository/Frame/text'), 100, 100)
 
 
+
+'Switching to text area which is situated in Iframe'
+//WebUI.switchToFrame(findTestObject('Object Repository/Frame/text area frame'), 60)
+
+'Fecthing the text from Text area and storing it in a variable'
+Text = WebUI.getText(findTestObject('Frame/text'))
+
+'Verifying the Actual text with Expected text from Text Area.'
+WebUI.verifyEqual(Text, 'Your content goes here.')
+
+WebUI.closeBrowser()
 

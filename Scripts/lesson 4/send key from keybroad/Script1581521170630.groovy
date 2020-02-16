@@ -1,19 +1,22 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('http://demo.guru99.com/V4/index.php')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('demoKatalon/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.waitForPageLoad(3)
 
-WebUI.waitForElementVisible(findTestObject('demoKatalon/Page_CURA Healthcare Service/input_Username_username'), 5)
+WebDriver driver = DriverFactory.getWebDriver()
 
 //WebUI.setText(findTestObject('Object Repository/LoginPages/txt_name'), GlobalVariable.name_d)
-WebUI.setText(findTestObject('demoKatalon/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/LoginPages/txt_name'), 'hai123')
 
-//WebUI.sendKeys(findTestObject('Object Repository/demoKatalon/Page_CURA Healthcare Service/input_Username_username'), Keys.TAB)
-WebUI.sendKeys(findTestObject('demoKatalon/Page_CURA Healthcare Service/input_Username_username'), Keys.chord(Keys.TAB))
+WebUI.delay(2)
 
-WebUI.closeBrowser()
+driver.findElement(By.name('uid')).sendKeys(Keys.chord(Keys.COMMAND, "a"))
+

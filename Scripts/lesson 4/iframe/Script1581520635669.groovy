@@ -18,6 +18,9 @@ WebUI.openBrowser('http://the-internet.herokuapp.com/iframe')
 'Maximize the window\r\n'
 WebUI.maximizeWindow()
 
+
+
+
 'Switching to text area which is situated in Iframe'
 WebUI.switchToFrame(findTestObject('Object Repository/Frame/text area frame'), 60)
 
